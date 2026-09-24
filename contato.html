@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1><b>Questionario do site</b></h1>
+    <form accept="armasenamento.php" method="get">
+        <fieldset>
+            <div class="formPalavras">
+                <p>Nome completo:</p>
+                <input type="text" name="texto" id="text" placeholder="Digite seu nome completo">
+                <p>Data de Nascimento:</p>
+                <input type="date" name="Data" id="Data">
+                <p>Email:</p>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">
+                <p>Sexo:</p>
+                <input type="radio" name="Sexo" id="Sexo">Feminino
+                <input type="radio" name="Sexo" id="Sexo">Masculino
+            </div>
+        </fieldset>
+        <div class="formPalavras">
+            <p>O que você mais gosta de fazer na internet</p>
+            <textarea name="Mais gosta" id="Mais gosta" cols="30" rows="5"
+                placeholder="Digite aqui sua resposta"></textarea>
+            <p>Que horario você costuma usar a internet</p>
+            <input type="time" name="tempo" id="">
+            <p>
+            <p>Quais aparelhos você utliiza para acessar a internet</p>
+            <input type="checkbox" name="aparelhos" id="aparelhos" value="celular">Celular
+            <input type="checkbox" name="aparelhos" id="aparelhos" value="Computador">Computador
+            <input type="checkbox" name="aparelhos" id="aparelhos" value="TV">TV
+            <input type="checkbox" name="aparelhos" id="aparelhos" value="notebook">Notebook
+            <p>Para que você mais utliiza a internet</p>
+            <input type="radio" name="w" id="aparelhos" value="Trabalho">Trabalho
+            <input type="radio" name="w" id="aparelhos" value="Jogar">Jogar
+            <input type="radio" name="w" id="aparelhos" value="Estudo">Estudo
+            </p>
+            <p>Qual o navegador que voçê mais utliiza</p>
+            <input type="radio" name="e" id="aparelhos" value="Google Chrome">Google Chrome
+            <input type="radio" name="e" id="aparelhos" value="Microsoft Edge">Microsoft Edge
+            <input type="radio" name="e" id="aparelhos" value="Firefox">Firefox
+            <input type="radio" name="e" id="aparelhos" value="Opera">Opera
+            </p>
+        </div>
+            <input id="enviar" type="submit" value="Enviar">
+            <input id="limpar" type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+
+</html>
